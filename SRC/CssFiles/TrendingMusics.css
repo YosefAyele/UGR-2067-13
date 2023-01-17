@@ -1,0 +1,137 @@
+/* header stylings */
+.header{
+    display:flex;
+    background-color: rgb(64, 114, 114);
+    justify-content: space-between;
+}
+.header__logo{
+    width:7vw;
+    height:7vw;
+    border-radius: 50%;
+}
+.header__nav{
+    margin-top:auto;
+    display:flex;
+    width:55%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.header__navbtn{
+    display:block;
+    text-decoration: none;
+    color:rgb(235, 240, 239);
+    margin-left: 2vw;
+    padding-bottom: 2vh;
+
+}
+.page__navTrending{
+    margin-top: 3vh;
+}
+.trendingBtn{
+    background-color: rgb(62, 124, 124);
+    text-decoration: none;
+    color:rgb(237, 245, 8);
+    margin:0 1vw;
+    padding:0.5rem 1rem;
+    border-radius:50%;
+
+}
+/* Main contents styling */
+.musics__heading{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: rgb(23, 70, 70);
+    color: violet;
+    width:50%;
+    margin-bottom:10vh;
+    padding:1rem;
+    border-radius:50%;
+    
+}
+.music__contents{
+    
+    display:flex;
+    justify-content: space-around;
+    width:100%;
+    flex-wrap: wrap;   
+}
+.music__like{
+    display:flex;
+    justify-content: center;
+}
+.likeBtn{
+    height:100%;
+    border:none;
+    margin-top: 2.5vh;
+    margin-right: 1vw;
+}
+.musics__info{
+    display:flex;
+    justify-content: space-around;
+    width:100%;
+    flex-wrap: wrap;
+    margin-top: 5vh;
+
+}
+/* section 2 styling */
+
+.page__billBoardHeading{
+    background-color: rgb(133, 109, 81);
+    color:rgb(182, 178, 178);
+    text-align: center;
+    padding:0.3rem;
+    border-radius: 60%;
+}
+.musics__infoNowPlaying{
+    max-width: 300vw;
+}
+.musics__NowPlayingHeading{
+    background-color: rgb(79, 58, 32);
+    color:rgb(215, 207, 207);
+    text-align: center;
+    padding: 0.3rem;
+    border-radius: 60%;
+}
+
+.ytLink{
+    text-decoration: none;
+    color:rgb(214, 49, 148)
+}
+/* Billboard Table Styling */
+table,tr,th,td{
+    border: 1px solid rgb(137, 99, 52);
+    border-collapse: collapse;
+    padding: 0.5em;
+    text-align: left;
+
+}
+
+/* general stylings */
+.page{
+    background-color:rgb(228, 244, 238);
+    font-family: 'Playfair Display', serif;
+}
+.page--main{
+    background-color: rgb(202, 240, 240);
+    padding:5vh 6vh;
+}
+/* footer styling */
+
+.page--footer{
+    text-align: center;
+    color:blueviolet; 
+}
+.list__link{
+    color:rgb(159, 117, 117);
+    text-decoration: none;
+    
+}
+.list{
+    list-style-type: none;
+}
+.list__link--toHome{
+   text-align:left;
+
+}

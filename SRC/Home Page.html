@@ -6,86 +6,88 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Website to entertain yourself">
    <title>AfterWork Entertainment : Home Page</title>
+   <link rel="stylesheet" href=".\CssFiles\Homepage.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
 </head>
-<body>
-    <!-- Logo -->
-    <div>
-        <img src=".\images\Logo.jpg" alt="Logo Goes Here">
+<body class="page">
+    
+    <div class="header">
+        <!-- Logo -->
+        <img src=".\images\Logo.jpg" alt="Logo Goes Here" class="header__logo">
+    
+        <!-- Navigation bar -->
+        <nav class="header__nav">
+           
+            <a class="header__navbtn" href=".\Home Page.html">Home</a>
+
+            <a class="header__navbtn" href=".\News Feed Sport News.html">NewsFeed</a>
+           
+            <a class="header__navbtn" href=".\Trending Musics.html">Trending</a>
+
+            <a class="header__navbtn" href=".\About us.html">About US</a>
+
+            <a class="header__navbtn" href=".\contact us.html">Contact Us</a>
+             
+        </nav>
     </div>
-    <!-- Navigation bar -->
-    <nav>
-        <a href=".\Home Page.html">
-            <button>Home</button>
-        </a>
-        <a href=".\News Feed Sport News.html">
-            <button>NewsFeed</button>
-        </a>
-        <a href=".\Trending Musics.html">
-            <button>Trending</button>
-        </a>
-        <a href=".\About us.html">
-            <button>About Us</button>
-        </a>
-        <a href=".\contact us.html">
-            <button>Contact Us</button>
-        </a>
-    </nav>
     <!-- MAIN CONTENTS OF THE WEBSITE IN A NUTSHELL -->
-    <main>
-       <section>
-            <h1>Welcome To AfterWork Entertainment After Your Long Day</h1>
-            <div>
+    <main class="page page--main">
+       <section class="contents">
+            <h1 class="contents__welcome">Welcome To AfterWork Entertainment After Your Long Day</h1>
+        
+            <div class="contents__line">
                 <div>
-                    <div>
-                        <img src=".\images\markus-winkler-aB4BJSZoTTI-unsplash.jpg" width="200px" height="200px" alt="News">
-                        <p>You will be updated with 
-                            our latest entertainment 
-                            news like sport news and 
-                            celebrity news</p>
-                    </div>
-                    <div>
-                        <img src=".\images\marcela-laskoski-YrtFlrLo2DQ-unsplash.jpg" width="200px" height="200px" alt="Trending Music">
-                        <p>You will be updated with 
-                            trending music videos</p>
-                    </div>
-                    <div>
-                        <img src=".\images\jakob-owens-CiUR8zISX60-unsplash.jpg"  width="200px" height="200px"  alt="Trending Movies">
-                        <p>You will be updated with 
-                            latest movies</p>
-                    </div>
+                    <img src=".\images\markus-winkler-aB4BJSZoTTI-unsplash.jpg" width="200px" height="200px" alt="News">
+                    <p>You will be updated with 
+                        our latest entertainment 
+                        news like sport news and 
+                        celebrity news</p>
                 </div>
                 <div>
-                    <div>
-                        <img src=".\images\markus-spiske-2G8mnFvH8xk-unsplash.jpg"  width="200px" height="200px" alt="News">
-                        <p>You will be updated with 
-                            our latest entertainment 
-                            news like sport news and 
-                            celebrity news</p>
-                    </div>
-                    <div>
-                        <img src=".\images\wes-hicks-MEL-jJnm7RQ-unsplash.jpg" width="200px" height="200px" alt="Trending Music">
-                        <p>You will be updated with 
-                            trending music videos</p>
-                    </div>
-                    <div>
-                        <img src=".\images\samuel-regan-asante-wMkaMXTJjlQ-unsplash.jpg" width="200px" height="200px" alt="Trending Movies">
-                        <p>You will be updated with 
-                            latest movies</p>
-                    </div>
+                    <img src=".\images\marcela-laskoski-YrtFlrLo2DQ-unsplash.jpg" width="200px" height="200px" alt="Trending Music">
+                    <p>You will be updated with 
+                        trending music videos</p>
+                </div>
+                <div>
+                    <img src=".\images\jakob-owens-CiUR8zISX60-unsplash.jpg"  width="200px" height="200px"  alt="Trending Movies">
+                    <p>You will be updated with 
+                        latest movies</p>
                 </div>
             </div>
+            <div class="contents__line">
+                <div>
+                    <img src=".\images\markus-spiske-2G8mnFvH8xk-unsplash.jpg"  width="200px" height="200px" alt="News">
+                    <p>You will be updated with 
+                        our latest entertainment 
+                        news like sport news and 
+                        celebrity news</p>
+                </div>
+                <div>
+                    <img src=".\images\wes-hicks-MEL-jJnm7RQ-unsplash.jpg" width="200px" height="200px" alt="Trending Music">
+                    <p>You will be updated with 
+                        trending music videos</p>
+                </div>
+                <div>
+                    <img src=".\images\samuel-regan-asante-wMkaMXTJjlQ-unsplash.jpg" width="200px" height="200px" alt="Trending Movies">
+                    <p>You will be updated with 
+                        latest movies</p>
+                </div>
+            </div>
+           
        </section>
     </main>
      <!-- FOOTER OF THE HOME PAGE -->
-    <footer>
+    <footer class="page page--footer">
         <h2>Go to:</h2>
-        <ul>
-            <li><a href=".\News Feed Sport News.html">NewsFeed Sport</a></li>
-            <li><a href=".\NewsFeed Celebrity News.html">NewsFeed Celebrity</a></li>
-            <li><a href=".\Trending Musics.html">Trending Music</a></li>
-            <li><a href=".\Trending Movies.html">Trending Movies</a></li>
-            <li><a href=".\About us.html">About Us</a></li>
-            <li><a href=".\contact us.html">contact us</a></li>
+        <ul class="list">
+            <li><a class="list__link" href=".\News Feed Sport News.html">NewsFeed Sport</a></li>
+            <li><a class="list__link"  href=".\NewsFeed Celebrity News.html">NewsFeed Celebrity</a></li>
+            <li><a class="list__link"  href=".\Trending Musics.html">Trending Music</a></li>
+            <li><a class="list__link"  href=".\Trending Movies.html">Trending Movies</a></li>
+            <li><a class="list__link"  href=".\About us.html">About Us</a></li>
+            <li><a class="list__link"  href=".\contact us.html">contact us</a></li>
         </ul>
     </footer>
 

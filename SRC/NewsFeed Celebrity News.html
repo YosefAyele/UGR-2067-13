@@ -6,93 +6,108 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Website to entertain yourself">
     <title>AfterWork Entertainment: NewsFeed Celebrity</title>
+    <link rel="stylesheet" href=".\CssFiles\NewsFeedCelebrity.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
 </head>
-<body>
-   <!-- Logo -->
-   <div>
-    <img src=".\images\Logo.jpg" alt="Logo Goes Here">
-   </div>
-    <!-- Navigation bar -->
-    <nav>
-        <a href=".\Home Page.html">
-            <button>Home</button>
-        </a>
-        <a href=".\News Feed Sport News.html">
-            <button>NewsFeed</button>
-        </a>
-        <a href=".\Trending Musics.html">
-            <button>Trending</button>
-        </a>
-        <a href=".\About us.html">
-            <button>About Us</button>
-        </a>
-        <a href=".\contact us.html">
-            <button>Contact Us</button>
-        </a>
-    </nav>
+<body class="page">
+    
+    <div class="header">
+        <!-- Logo -->
+        <img src=".\images\Logo.jpg" alt="Logo Goes Here" class="header__logo">
+    
+        <!-- Navigation bar -->
+        <nav class="header__nav">
+           
+            <a class="header__navbtn" href=".\Home Page.html">Home</a>
+
+            <a class="header__navbtn" href=".\News Feed Sport News.html">NewsFeed</a>
+           
+            <a class="header__navbtn" href=".\Trending Musics.html">Trending</a>
+
+            <a class="header__navbtn" href=".\About us.html">About US</a>
+
+            <a class="header__navbtn" href=".\contact us.html">Contact Us</a>
+             
+        </nav>
+    </div>
 
     <!-- newsfeed navigation -->
-    <nav>
-        <a href=".\News Feed Sport News.html">
-            <button>Sport News</button>
-        </a>
-        <a href=".\NewsFeed Celebrity News.html">
-            <button>Celebrity News</button>
-        </a>
+    <nav class="page__navNews">
+        <a class="newsBtn" href=".\News Feed Sport News.html">Sport News</a>
+        <a class="newsBtn" href=".\NewsFeed Celebrity News.html">CelebrityNews</a>
     </nav>
 
     <!-- Main Contents of the page -->
-    <main>
-        <section>
-            <h1>Hot Celebrity News</h1>
-            <img src=".\images\Benedict.jpg" alt="Benedict Cumberbatch">
-            <ul>
-                <li>Full Name :Benedict Timothy Carlton Cumberbatch</li>
-                <li>Born : 19 July 1976 (age 46) Hammersmith, London, England</li>
-                <li>Nationality: British</li>
-                <li>Education  :University of Manchester,London Academy of Music and Dramatic Art</li>
-                <li> Occupation:	Actor</li>
-                <li>Years active:	1998–present</li>   
-                <li>Spouse:	Sophie Hunter ​(m. 2015)​</li> 
-                <li>Children:	3</li> 
-                <li>Parents:Timothy Carlton (father),Wanda Ventham (mother)</li>
-            </ul>
-            <h2>What is New about Benedict Cumberbatch? </h2>
-            <p>One of the most well-respected British thespians of his generation, Benedict Cumberbatch may have taken the classic route to acting fame: spouting off Shakespeare at drama school, followed by BBC roles and eventually films, but his type of fame is decidedly 21st century.
-                 Cumberbatch is beloved by a very devoted cadre of fans, who line the stranger corners of the internet with all sorts of fan art and memes dedicated to their favorite actor. 
-                 From Oscar nominated prestige dramas to Marvel superhero tentpole blockbusters, there was no limit to Cumberbatch's range, one might even call him a leading man disguised as an eccentric character actor</p>
-            
-            <img src=".\images\KateWinslet.jpg" alt="Kate Winslet">
-            <ul>
-                <li>Full Name :Kate Elizabeth Winslet</li>
-                <li>Born : 5 October 1975 (age 47) Reading, Berkshire, England</li>
-                <li>Nationality: British</li>
-                <li>Education  :Redroofs Theatre School</li>
-                <li>Occupation: Actress</li>
-                <li>Years active:1991–present</li>
-                <li>Spouses:	Jim Threapleton (m. 1998; div. 2001)​,Sam Mendes (m. 2003; div. 2011)​,Edward Abel Smith[a] (m. 2012)​</li>
-                <li>Children:	3</li>
-            </ul>
-            <h2>What is new About kate Winslet?</h2>
-            <p>Kate Winslet is poking fun at Tom Cruise after breaking one of his impressive records.
-                The actress, 47, recently spoke with USA Today about training for her latest movie, Avatar: The Way of Water. While filming the James Cameron project, Winslet famously held her breath underwater for seven minutes and 47 seconds.
-                The moment officially broke Cruise's previous record after he lasted for six minutes while shooting Mission: Impossible — Rogue Nation in 2015.
-                Though Winslet said Cruise hasn't reached out to her since she broke his record, she shared a message for him with the outlet: "Poor Tom."
-            </p>
+    <main class="page page--main">
+        <section class="contents">
+            <h1 class="contents__heading">Hot Celebrity News</h1>
+            <div class="contents__celeb">
+                <div class="contents__celebInfo">
+                    <img class="contents__CelebImg" src=".\images\Benedict.jpg" alt="Benedict Cumberbatch">
+                    <ul>
+                        <li>Full Name :Benedict Timothy Carlton Cumberbatch</li>
+                        <li>Born : 19 July 1976 (age 46) Hammersmith, London, England</li>
+                        <li>Nationality: British</li>
+                        <li>Education  :University of Manchester,London Academy of Music and Dramatic Art</li>
+                        <li> Occupation:	Actor</li>
+                        <li>Years active:	1998–present</li>   
+                        <li>Spouse:	Sophie Hunter ​(m. 2015)​</li> 
+                        <li>Children:	3</li> 
+                        <li>Parents:Timothy Carlton (father),Wanda Ventham (mother)</li>
+                    </ul>
+                </div>
+               
+                <div class="contents__news">
+                    
+                    <h2 class="contents__newsHeading">What is New about Benedict Cumberbatch? </h2>
+                    <p>One of the most well-respected British thespians of his generation, Benedict Cumberbatch may have taken the classic route to acting fame: spouting off Shakespeare at drama school, followed by BBC roles and eventually films, but his type of fame is decidedly 21st century.
+                        Cumberbatch is beloved by a very devoted cadre of fans, who line the stranger corners of the internet with all sorts of fan art and memes dedicated to their favorite actor. 
+                        From Oscar nominated prestige dramas to Marvel superhero tentpole blockbusters, there was no limit to Cumberbatch's range, one might even call him a leading man disguised as an eccentric character actor</p>
+
+                </div>
+            </div>
+            <div class="contents__celeb">    
+                <div class="contents__celebInfo" >
+                    <img class="contents__CelebImg" src=".\images\KateWinslet.jpg" alt="Kate Winslet">
+                    <ul>
+                        <li>Full Name:Kate Elizabeth Winslet</li>
+                        <li>Born : 5 October 1975 (age 47) Reading, Berkshire, England</li>
+                        <li>Nationality: British</li>
+                        <li>Education  :Redroofs Theatre School</li>
+                        <li>Occupation: Actress</li>
+                        <li>Years active:1991–present</li>
+                        <li>Spouses:	Jim Threapleton (m. 1998; div. 2001)​,Sam Mendes (m. 2003; div. 2011)​,Edward Abel Smith[a] (m. 2012)​</li>
+                        <li>Children:	3</li>
+                    </ul>
+
+                </div>
+                
+                <div class="contents__news">
+
+                    <h2 class="contents__newsHeading">What is new About kate Winslet?</h2>
+                    <p>Kate Winslet is poking fun at Tom Cruise after breaking one of his impressive records.
+                        The actress, 47, recently spoke with USA Today about training for her latest movie, Avatar: The Way of Water. While filming the James Cameron project, Winslet famously held her breath underwater for seven minutes and 47 seconds.
+                        The moment officially broke Cruise's previous record after he lasted for six minutes while shooting Mission: Impossible — Rogue Nation in 2015.
+                        Though Winslet said Cruise hasn't reached out to her since she broke his record, she shared a message for him with the outlet: "Poor Tom."</p>
+                </div>
+            </div>
         </section>
     </main>
-    <!-- FOOTER -->
-    <footer>
-        <h3>Go to:</h3>
-        <ul>
-            <li><a href=".\News Feed Sport News.html">NewsFeed Sport</a></li>
-            <li><a href=".\NewsFeed Celebrity News.html">NewsFeed Celebrity</a></li>
-            <li><a href=".\Trending Musics.html">Trending Music</a></li>
-            <li><a href=".\Trending Movies.html">Trending Movies</a></li>
-            <li><a href=".\About us.html">About Us</a></li>
-            <li><a href=".\contact us.html">contact us</a></li>
+    <!-- FOOTER OF THE CelebrityNews PAGE -->
+    <footer class="page page--footer">
+        <h2>Go to:</h2>
+        <ul class="list">
+            <li><a class="list__link" href=".\News Feed Sport News.html">NewsFeed Sport</a></li>
+            <li><a class="list__link"  href=".\NewsFeed Celebrity News.html">NewsFeed Celebrity</a></li>
+            <li><a class="list__link"  href=".\Trending Musics.html">Trending Music</a></li>
+            <li><a class="list__link"  href=".\Trending Movies.html">Trending Movies</a></li>
+            <li><a class="list__link"  href=".\About us.html">About Us</a></li>
+            <li><a class="list__link"  href=".\contact us.html">contact us</a></li>
         </ul>
-        <a href=".\News Feed Sport News.html">Back to home</a>
+            
+        <a class="list__link page--footer list__link--toHome" href=".\Home Page.html">Back To home</a>
     </footer>
 </body>
 </html>
