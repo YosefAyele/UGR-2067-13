@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Website to entertain yourself">
+    <script src="https://kit.fontawesome.com/0ac9b39a9f.js" crossorigin="anonymous"></script>
+    <title>AfterWorkEntertainment: Contact Us</title>
+    <link rel="stylesheet" href=".\CssFiles\ContactUs.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <script defer src=".\JsFiles\FormValidation.js"></script>
+</head>
+<body class="page">
+    
+    <div class="header">
+        <!-- Logo -->
+        <img src=".\images\Logo.jpg" alt="Logo Goes Here" class="header__logo">
+    
+        <!-- Navigation bar -->
+        <nav class="header__nav">
+           
+            <a class="header__navbtn" href=".\index.html">Home</a>
+
+            <a class="header__navbtn" href=".\News Feed Sport News.html">NewsFeed</a>
+           
+            <a class="header__navbtn" href=".\Trending Musics.html">Trending</a>
+
+            <a class="header__navbtn" href=".\About us.html">About US</a>
+
+            <a class="header__navbtn" href=".\contact us.html">Contact Us</a>
+             
+        </nav>
+    </div>
+
+    <main class="page page--main">
+        <section class="page__contact">
+            <h1 class="main__heading" >Contact US</h1>
+            <a class="contact" href="yosefayele05@gmail.com">Gmail <i class="fa-regular fa-envelope"></i></a>
+            <p>yosefayele05@gmail.com</p>
+
+            <a class="contact" href="MAAZZDDAA">Telegram <i class="fa-brands fa-telegram"></i></a>
+            <p>@Mazddaa</p>
+
+            <a class="contact" href="https://www.linkedin.com/in/yosef-eshetu-5a3310192/">Linked IN <i class="fa-brands fa-linkedin"></i></a>
+            <p>https://www.linkedin.com/in/yosef-eshetu-5a3310192/</p>
+        </section>
+
+        <section class="page__forms">
+            <h2 class="drop">If you don't want go anywehere else, you can drop your messages here.</h2>
+            <div id="error"></div>
+            <form id="form" action="/" method="GET">
+                <div>
+
+                    <label for="email">Your Email Adress:</label>
+                    <input type="text" id="email" name="email" required>
+             
+                </div>
+                
+                <div>
+
+                    <label class="message__label"for="your message">Your Message:</label>
+                    <textarea class="message" type="text" id="your message" name="message" required></textarea>
+
+                </div>
+               
+
+                <button type="submit" value="submit">Submit</button>
+
+
+            </form>
+        </section>
+    </main>
+    
+    <!-- FOOTER -->
+    <footer class="page page--footer">
+        <h2>Go to:</h2>
+        <ul class="list">
+            <li><a class="list__link" href=".\News Feed Sport News.html">NewsFeed Sport</a></li>
+            <li><a class="list__link"  href=".\NewsFeed Celebrity News.html">NewsFeed Celebrity</a></li>
+            <li><a class="list__link"  href=".\Trending Musics.html">Trending Music</a></li>
+            <li><a class="list__link"  href=".\Trending Movies.html">Trending Movies</a></li>
+            <li><a class="list__link"  href=".\About us.html">About Us</a></li>
+            <li><a class="list__link"  href=".\contact us.html">contact us</a></li>
+        </ul>
+            
+        <a class="list__link page--footer list__link--toHome" href=".\index.html">Back To home</a>
+    </footer>
+</body>
+</html>

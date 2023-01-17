@@ -1,0 +1,102 @@
+/* headers styling */
+.header{
+    display:flex;
+    background-color: rgb(64, 114, 114);
+    justify-content: space-between;
+}
+.header__logo{
+    width:7vw;
+    height:7vw;
+    border-radius: 50%;
+}
+.header__nav{
+    margin-top:auto;
+    display:flex;
+    width:60%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.header__navbtn{
+    display:block;
+    text-decoration: none;
+    color:rgb(235, 240, 239);
+    margin-left: 2vw;
+    padding-bottom: 1.5vh;
+}
+.page__navNews{
+    margin-top: 3vh;
+    
+}
+.newsBtn{
+    background-color: rgb(62, 124, 124);
+    text-decoration: none;
+    color:rgb(247, 247, 13);
+    margin:0 1vw;
+    padding:0.5rem 1rem;
+    border-radius:50%;
+}
+/* general styling */
+.page{
+    background-color:rgb(228, 244, 238);
+    font-family: 'Playfair Display', serif;
+}
+.page--main{
+    background-color: rgb(202, 240, 240);
+    width:100%;
+
+}
+/* contents styling */
+.contents__heading{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: rgb(23, 70, 70);
+    color: violet;
+    width:35%;
+    padding:1rem;
+    border-radius:50%;
+}
+.contents__celeb{
+    display:flex;
+    justify-content: space-around;
+    margin-top: 3vh;
+    width:100%;
+    flex-wrap: wrap;
+}
+.contents__CelebImg{
+    width:20vw;
+    height:35vh;
+
+}
+.contents__newsHeading{
+    text-align: center;
+}
+.contents__celebInfo{
+    margin-right: 2vw;
+    padding-right: 2vw;
+}
+.contents__news{
+    max-width: 35vw;
+    margin-left: 0;
+
+}
+
+
+/* Footer styling */
+.page--footer{
+    text-align: center;
+    color:blueviolet; 
+}
+.list__link{
+    color:rgb(159, 117, 117);
+    text-decoration: none;
+    
+}
+.list{
+    list-style-type: none;
+}
+.list__link--toHome{
+   text-align:left;
+
+}
