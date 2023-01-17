@@ -6,61 +6,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Website to entertain yourself">
     <title>After Work Entertainment: About Us </title>
+    <link rel="stylesheet" href=".\CssFiles\AboutUs.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
 </head>
-<body>
-    <!-- Logo -->
-    <div>
-        <img src=".\images\Logo.jpg" alt="Logo Goes Here">
-    </div>
+<body class="page">
+    
+    <div class="header">
+        <!-- Logo -->
+        <img src=".\images\Logo.jpg" alt="Logo Goes Here" class="header__logo">
+    
         <!-- Navigation bar -->
-    <nav>
-        <a href=".\Home Page.html">
-            <button>Home</button>
-        </a>
-        <a href=".\News Feed Sport News.html">
-            <button>NewsFeed</button>
-        </a>
-        <a href=".\Trending Musics.html">
-            <button>Trending</button>
-        </a>
-        <a href=".\About us.html">
-            <button>About Us</button>
-        </a>
-        <a href=".\contact us.html">
-            <button>Contact Us</button>
-        </a>
-    </nav>
-    <main>
-        <h1>About Us</h1>
-        <h2>Who are we?</h2>
+        <nav class="header__nav">
+           
+            <a class="header__navbtn" href=".\index.html">Home</a>
+
+            <a class="header__navbtn" href=".\News Feed Sport News.html">NewsFeed</a>
+           
+            <a class="header__navbtn" href=".\Trending Musics.html">Trending</a>
+
+            <a class="header__navbtn" href=".\About us.html">About US</a>
+
+            <a class="header__navbtn" href=".\contact us.html">Contact Us</a>
+             
+        </nav>
+    </div>
+    <main class="page page--main">
+        <h1 class="main__heading">About Us</h1>
+        <h2 class="content__heading">Who are we?</h2>
         <p>
             we are here to help people have some fun after their long day of work.
             we are group of students at AAiT. 
         </p>
 
-        <h2>Why After Work</h2>
+        <h2 class="content__heading">Why After Work</h2>
         <p>After work will do the search for you that you don't have to worry about which movie you should see or which song you should listen to .
                 And regarding the news , two of the main entertainment news will be provided to you. YOu will be updated with the latest sport news.
                 And also if you want to get all the informations about celebrities,sit back and relax. we are here for you.</p>
         
-        <h2>For Whom are Our Services?</h2>
+        <h2 class="content__heading">For Whom are Our Services?</h2>
         <p>If you are a man who don't have time to see and choose from a number of movies which are produced daily. 
             And also If you are a guy who need news with only limited scope. 
             And also If you are a guy who don't want to waste his by searching a good music to listen to and relax, then you are that guy whom afterwork entretainment is for.</p>
     </main>
         
     <!-- FOOTER -->
-    <footer>
-        <h3>Go to:</h3>
-        <ul>
-            <li><a href=".\News Feed Sport News.html">NewsFeed Sport</a></li>
-            <li><a href=".\NewsFeed Celebrity News.html">NewsFeed Celebrity</a></li>
-            <li><a href=".\Trending Musics.html">Trending Music</a></li>
-            <li><a href=".\Trending Movies.html">Trending Movies</a></li>
-            <li><a href=".\About us.html">About Us</a></li>
-            <li><a href=".\contact us.html">contact us</a></li>
+    <footer class="page page--footer">
+        <h2>Go to:</h2>
+        <ul class="list">
+            <li><a class="list__link" href=".\News Feed Sport News.html">NewsFeed Sport</a></li>
+            <li><a class="list__link"  href=".\NewsFeed Celebrity News.html">NewsFeed Celebrity</a></li>
+            <li><a class="list__link"  href=".\Trending Musics.html">Trending Music</a></li>
+            <li><a class="list__link"  href=".\Trending Movies.html">Trending Movies</a></li>
+            <li><a class="list__link"  href=".\About us.html">About Us</a></li>
+            <li><a class="list__link"  href=".\contact us.html">contact us</a></li>
         </ul>
-        <a href=".\News Feed Sport News.html">Back to home</a>
+            
+        <a class="list__link page--footer list__link--toHome" href=".\index.html">Back To home</a>
     </footer>
 </body>
 </html>

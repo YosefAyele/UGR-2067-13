@@ -8,137 +8,157 @@
     <script src="https://kit.fontawesome.com/0ac9b39a9f.js" crossorigin="anonymous"></script>
 
     <title>AfterWorkEntertainment: Trending Music</title>
+    <link rel="stylesheet" href=".\CssFiles\TrendingMusics.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <script src=".\JsFiles\like.js"></script>
 
 </head>
-<body>
-    <!-- Logo -->
-    <div>
-        <img src=".\images\Logo.jpg" alt="Logo Goes Here">
-    </div>
-    <!-- Navigation bar -->
-    <nav>
-        <a href=".\Home Page.html">
-            <button>Home</button>
-        </a>
-        <a href=".\News Feed Sport News.html">
-            <button>NewsFeed</button>
-        </a>
-        <a href=".\Trending Musics.html">
-            <button>Trending</button>
-        </a>
-        <a href=".\About us.html">
-            <button>About Us</button>
-        </a>
-        <a href=".\contact us.html">
-            <button>Contact Us</button>
-        </a>
-    </nav>
-   
+
+<body class="page">
+    
+    <div class="header">
+        <!-- Logo -->
+        <img src=".\images\Logo.jpg" alt="Logo Goes Here" class="header__logo">
+    
+        <!-- Navigation bar -->
+        <nav class="header__nav">
+           
+            <a class="header__navbtn" href=".\index.html"*>Home</a>
+
+            <a class="header__navbtn" href=".\News Feed Sport News.html">NewsFeed</a>
+           
+            <a class="header__navbtn" href=".\Trending Musics.html">Trending</a>
+
+            <a class="header__navbtn" href=".\About us.html">About US</a>
+
+            <a class="header__navbtn" href=".\contact us.html">Contact Us</a>
+             
+        </nav>
+    </div>   
     <!-- navigation For Trending Musics and Trending Movies -->
-    <nav>
-        <a href=".\Trending Musics.html">
-            <button>Trending Musics</button>
-        </a>
-        <a href=".\Trending Movies.html">
-            <button>Trending Movies</button>
-        </a>
+    <nav class="page__navTrending">
+        <a class="trendingBtn" href=".\Trending Musics.html">Trending Musics</a>
+        <a class="trendingBtn" href=".\Trending Movies.html">Trending Movies</a>
     </nav>
 
     <!-- Main Contents Of the page -->
-    <main>
-        <section>
-            <h1>Musics That Will Make Your Day</h1>
-            <div>
-                <img src=".\images\Girlfriend.jpg" alt="Girlfriend(Ruger)">
-            </div>
-            <i class="fa-regular fa-thumbs-up"></i>
-            <p>360M</p>
+    <main class="page page--main">
+        <section class="musics">
+            <h1 class="musics__heading">Musics That Will Make Your Day</h1>
             
-            <div>
-                <img src=".\images\Ayra Star Rush.jpg" alt="Ayra Star(Rush)">
+            <div class="music__contents">
+                <div >
+                    <img src=".\images\Girlfriend.jpg" alt="Girlfriend(Ruger)">
+                
+                    <div id="like1Btn" class="music__like">
+                        <button class="likeBtn">
+                            <i class="fa-regular fa-thumbs-up"></i>
+                        </button>
+                        <p id="like1">360M</p>
+                    </div>
+
+                </div>
+                    
+                
+                <div>
+                    <img src=".\images\Ayra Star Rush.jpg" alt="Ayra Star(Rush)">
+                    <div id="like2Btn" class="music__like">
+                        <button class="likeBtn" >
+                            <i class="fa-regular fa-thumbs-up"></i>
+                        </button>
+                        <p id="like2">900M</p>
+                    </div>
+                </div>
+                
+                <div>
+                    <img src=".\images\Divide(Ed Sheeran).jpg" alt="Divide Album(ED SHEERAN)">
+                    <p>Play Album</p>
+                </div>
+
             </div>
-            <i class="fa-regular fa-thumbs-up"></i>
-            <p>900M</p>
             
-            <div>
-                <img src=".\images\Divide(Ed Sheeran).jpg" alt="Divide Album(ED SHEERAN)">
-            </div>
-            <p>Play Album</p>
         </section>
 
-        <section>
-            <h2>Top 5 Billboard Hot Musics</h2>
-            <table style="width:100%">
-                <tr>
-                    <th>Rank</th>
-                    <th>song</th>
-                    <th>Singer</th>
-                    <th>Release year</th>
-                    <th>YT-Link</th>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Anti-Hero</th>
-                    <td>Taylor swift</td>
-                    <td>2022</td>
-                    <td><a href="https://youtu.be/b1kbLwvqugk">Anti-Hero</a></td>
-                </tr>
+        <section class="musics__info">
+            <div class="page__billBoard">
+                <h2 class="page__billBoardHeading">Top 5 Billboard Hot Musics</h2>
+                <table>
+                    <tr>
+                        <th>Rank</th>
+                        <th>song</th>
+                        <th>Singer</th>
+                        <th>Release year</th>
+                        <th>YT-Link</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Anti-Hero</th>
+                        <td>Taylor swift</td>
+                        <td>2022</td>
+                        <td><a class="ytLink" href="https://youtu.be/b1kbLwvqugk">Anti-Hero</a></td>
+                    </tr>
 
-                <tr>
-                    <td>2</td>
-                    <td>All I want for christmas is you</td>
-                    <td>Mariah Carey</td>
-                    <td>2020</td>
-                    <td><a href="https://youtu.be/aAkMkVFwAoo">All I want for christmas is you</a></th>
-                </tr>
-                <tr>
-                   <td>3</td>
-                   <td>Rocking around the christmas tree</td>
-                   <td>Brenda lee</td>
-                   <td> 1958</td>
-                   <td><a href="https://youtu.be/1qYz7rfgLWE">Rocking around the christmas tree</a></td>
-                </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>All I want for christmas is you</td>
+                        <td>Mariah Carey</td>
+                        <td>2020</td>
+                        <td><a class="ytLink" href="https://youtu.be/aAkMkVFwAoo">All I want for christmas is you</a></th>
+                    </tr>
+                    <tr>
+                    <td>3</td>
+                    <td>Rocking around the christmas tree</td>
+                    <td>Brenda lee</td>
+                    <td> 1958</td>
+                    <td><a class="ytLink" href="https://youtu.be/1qYz7rfgLWE">Rocking around the christmas tree</a></td>
+                    </tr>
 
-                <tr>
-                    <td>4</td>
-                    <td>Unholy</td>
-                    <td>Sam Smith and Kim petras</td>
-                    <td>2022</td>
-                    <td><a href="https://youtu.be/Uq9gPaIzbe8">Unholy</a></td>
-                </tr>
-                <tr>
-                    <td>5</td>
-                    <td>Jingle bell rock</td>
-                    <td>Boby Helms</td>
-                    <td>1957</td>
-                    <td><a href="https://youtu.be/fyEAX7Cd3OE">Jingle Bell Rock</a></td>
-                </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Unholy</td>
+                        <td>Sam Smith and Kim petras</td>
+                        <td>2022</td>
+                        <td><a class="ytLink" href="https://youtu.be/Uq9gPaIzbe8">Unholy</a></td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Jingle bell rock</td>
+                        <td>Boby Helms</td>
+                        <td>1957</td>
+                        <td><a class="ytLink" href="https://youtu.be/fyEAX7Cd3OE">Jingle Bell Rock</a></td>
+                    </tr>
                 
-            </table>
+                    
+                </table>
+            </div>
+            <div class="musics__infoNowPlaying">
+                <h3 class="musics__NowPlayingHeading">Now playing: Star Boy Daft Punk </h3>
+                <img src=".\images\StarBoy.jpg" alt="Star Boy " width="100px">
+                <audio controls>
+                    <source src=".\audios\The_Weeknd_Starboy_ft_Daft_Punk_Official_Video_34Na4j8AVgA_140 (mp3cut.net).mp3" type="audio/mpeg">
+                    <track src=".\SRC\Subtitles\starBoyLyrics.vtt">
+                Your browser does not support the audio element.
 
-            <h3>Now playing: Star Boy Daft Punk </h3>
-            <img src=".\images\StarBoy.jpg" alt="Star Boy " width="100px">
-            <audio controls>
-                <source src=".\audios\The_Weeknd_Starboy_ft_Daft_Punk_Official_Video_34Na4j8AVgA_140 (mp3cut.net).mp3" type="audio/mpeg">
-                <track src=".\SRC\Subtitles\starBoyLyrics.vtt">
-              Your browser does not support the audio element.
-
-            </audio>
+                </audio>
+            </div>
 
         </section>
     </main>
      <!-- FOOTER -->
-    <footer>
-        <h3>Go to:</h3>
-        <ul>
-            <li><a href=".\News Feed Sport News.html">NewsFeed Sport</a></li>
-            <li><a href=".\NewsFeed Celebrity News.html">NewsFeed Celebrity</a></li>
-            <li><a href=".\Trending Musics.html">Trending Music</a></li>
-            <li><a href=".\Trending Movies.html">Trending Movies</a></li>
-            <li><a href=".\About us.html">About Us</a></li>
-            <li><a href=".\contact us.html">contact us</a></li>
+     <footer class="page page--footer">
+        <h2>Go to:</h2>
+        <ul class="list">
+            <li><a class="list__link" href=".\News Feed Sport News.html">NewsFeed Sport</a></li>
+            <li><a class="list__link"  href=".\NewsFeed Celebrity News.html">NewsFeed Celebrity</a></li>
+            <li><a class="list__link"  href=".\Trending Musics.html">Trending Music</a></li>
+            <li><a class="list__link"  href=".\Trending Movies.html">Trending Movies</a></li>
+            <li><a class="list__link"  href=".\About us.html">About Us</a></li>
+            <li><a class="list__link"  href=".\contact us.html">contact us</a></li>
         </ul>
-        <a href=".\News Feed Sport News.html">Back to home</a>
+            
+        <a class="list__link page--footer list__link--toHome" href=".\index.html">Back To home</a>
     </footer>
     
 </body>

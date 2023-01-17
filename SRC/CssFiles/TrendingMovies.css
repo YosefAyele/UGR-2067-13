@@ -1,0 +1,111 @@
+/* header stylings */
+.header{
+    display:flex;
+    background-color: rgb(64, 114, 114);
+    justify-content: space-between;
+}
+.header__logo{
+    width:7vw;
+    height:7vw;
+    border-radius: 50%;
+}
+.header__nav{
+    margin-top:auto;
+    display:flex;
+    width:55%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.header__navbtn{
+    display:block;
+    text-decoration: none;
+    color:rgb(235, 240, 239);
+    margin-left: 2vw;
+    padding-bottom: 2vh;
+
+}
+.page__navTrending{
+    margin-top: 3vh;
+}
+.trendingBtn{
+    background-color: rgb(62, 124, 124);
+    text-decoration: none;
+    color:rgb(237, 245, 8);
+    margin:0 1vw;
+    padding:0.5rem 1rem;
+    border-radius:50%;
+
+}
+
+/* Main contents of the page */
+.Movies__heading{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: rgb(23, 70, 70);
+    color: violet;
+    width:50%;
+    margin-bottom:10vh;
+    text-align: center;
+    padding:1rem;
+    border-radius:50%;
+}
+.Movies__list{
+    display:flex;
+    justify-content: space-around;
+    width:100%;
+    flex-wrap: wrap;
+}
+.Movies__info{
+    display:flex;
+    justify-content: space-around;
+    width:100%;
+    flex-wrap: wrap;
+
+}
+/* Box Office styling */
+table,tr,th,td{
+    border: 1px solid rgb(137, 99, 52);
+    border-collapse: collapse;
+    padding: 0.5em;
+    text-align: left;
+
+}
+.Movies__BoxHeading{
+    background-color: rgb(133, 109, 81);
+    color:rgb(182, 178, 178);
+    text-align: center;
+    padding: 0.3rem;
+    border-radius: 60%;
+}
+/* general styling */
+.page{
+    background-color:rgb(228, 244, 238);
+    font-family: 'Playfair Display', serif;
+}
+.page--main{
+    background-color: rgb(202, 240, 240);
+    padding:5vh 6vh;
+    
+}
+
+/* footer styling */
+
+
+.page--footer{
+    text-align: center;
+    color:blueviolet; 
+}
+.list__link{
+    color:rgb(159, 117, 117);
+    text-decoration: none;
+    
+}
+.list{
+    list-style-type: none;
+}
+.list__link--toHome{
+   text-align:left;
+
+}
