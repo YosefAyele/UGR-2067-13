@@ -6,68 +6,90 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Website to entertain yourself">
    <title>AfterWork Entertainment : Home Page</title>
+   <link rel="stylesheet" href=".\bootstrap-5.0.2-dist\css\bootstrap.min.css">
+
 </head>
 <body>
-    <!-- Logo -->
-    <div>
-        <img src=".\images\Logo.jpg" alt="Logo Goes Here">
-    </div>
+    
     <!-- Navigation bar -->
-    <nav>
-        <a href=".\Home Page.html">
-            <button>Home</button>
-        </a>
-        <a href=".\News Feed Sport News.html">
-            <button>NewsFeed</button>
-        </a>
-        <a href=".\Trending Musics.html">
-            <button>Trending</button>
-        </a>
-        <a href=".\About us.html">
-            <button>About Us</button>
-        </a>
-        <a href=".\contact us.html">
-            <button>Contact Us</button>
-        </a>
+    <nav class="navbar navbar-expand-md bg-body-tertiary bg-secondary  px-5 navbar-dark pt-2" >
+        <!-- Logo -->
+       
+        <div class="container-fluid">
+            <img class="navbar-brand rounded bg-secondary" src=".\images\Logo-removebg-preview.png" alt="Logo Goes Here" width="80px">
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <button class="bg-warning rounded border-0">
+                            <a class="nav-link active  px-3"  href=".\Home Page.html"> Home </a>
+                        </button>
+                    </li>
+                    
+                    <li class="nav-item">
+
+                        <a class="nav-link text-warning  px-3" href=".\News Feed Sport News.html"> NewsFeed </a>
+                    </li>
+
+                    <li class="nav-item">
+
+                        <a class="nav-link text-warning    px-3" href=".\Trending Musics.html"> Trending </a>
+                    </li>
+
+                    <li class="nav-item">
+
+                        <a class="nav-link text-warning  px-3" href=".\About us.html"> About Us </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-warning  px-3" href=".\contact us.html"> Contact Us </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
     <!-- MAIN CONTENTS OF THE WEBSITE IN A NUTSHELL -->
     <main>
        <section>
-            <h1>Welcome To AfterWork Entertainment After Your Long Day</h1>
-            <div>
-                <div>
-                    <div>
+            <h1 class="display-3 text-light rounded bg-dark m-5 text-center p-4">Welcome To AfterWork Entertainment After Your Long Day</h1>
+            <div class="container" >
+                <div class="row my-4 text-center">
+                    <div class="col-sm-4 my-2">
                         <img src=".\images\markus-winkler-aB4BJSZoTTI-unsplash.jpg" width="200px" height="200px" alt="News">
                         <p>You will be updated with 
                             our latest entertainment 
                             news like sport news and 
                             celebrity news</p>
                     </div>
-                    <div>
+                    <div class="col-sm-4 my-2">
                         <img src=".\images\marcela-laskoski-YrtFlrLo2DQ-unsplash.jpg" width="200px" height="200px" alt="Trending Music">
                         <p>You will be updated with 
                             trending music videos</p>
                     </div>
-                    <div>
+                    <div class="col-sm-4 my-2">
                         <img src=".\images\jakob-owens-CiUR8zISX60-unsplash.jpg"  width="200px" height="200px"  alt="Trending Movies">
                         <p>You will be updated with 
                             latest movies</p>
                     </div>
                 </div>
-                <div>
-                    <div>
+                <div class="row my-4 text-center">
+                    <div class="col-sm-4 my-2">
                         <img src=".\images\markus-spiske-2G8mnFvH8xk-unsplash.jpg"  width="200px" height="200px" alt="News">
                         <p>You will be updated with 
                             our latest entertainment 
                             news like sport news and 
                             celebrity news</p>
                     </div>
-                    <div>
+                    <div class="col-sm-4 my-2">
                         <img src=".\images\wes-hicks-MEL-jJnm7RQ-unsplash.jpg" width="200px" height="200px" alt="Trending Music">
                         <p>You will be updated with 
                             trending music videos</p>
                     </div>
-                    <div>
+                    <div class="col-sm-4 my-2">
                         <img src=".\images\samuel-regan-asante-wMkaMXTJjlQ-unsplash.jpg" width="200px" height="200px" alt="Trending Movies">
                         <p>You will be updated with 
                             latest movies</p>
@@ -77,17 +99,20 @@
        </section>
     </main>
      <!-- FOOTER OF THE HOME PAGE -->
-    <footer>
-        <h2>Go to:</h2>
-        <ul>
-            <li><a href=".\News Feed Sport News.html">NewsFeed Sport</a></li>
-            <li><a href=".\NewsFeed Celebrity News.html">NewsFeed Celebrity</a></li>
-            <li><a href=".\Trending Musics.html">Trending Music</a></li>
-            <li><a href=".\Trending Movies.html">Trending Movies</a></li>
-            <li><a href=".\About us.html">About Us</a></li>
-            <li><a href=".\contact us.html">contact us</a></li>
-        </ul>
-    </footer>
+    <footer class="bg-dark text-white pt-2 pb-2 mt-5">
+        <div class="container text-center text-md-left">
 
+            <h2 class="text-uppercase mb-3 font-weight-bold text-info">Go to:</h2>
+            <div class="list-group">
+                <a class=" bg-dark nav-link text-warning bg-gradient p-1 mx-5" href=".\News Feed Sport News.html">NewsFeed Sport</a></li>
+                <a class=" bg-dark nav-link text-warning bg-gradient p-1 mx-5" href=".\NewsFeed Celebrity News.html">NewsFeed Celebrity</a></li>
+                <a class=" bg-dark nav-link text-warning bg-gradient p-1 mx-5" href=".\Trending Musics.html">Trending Music</a></li>
+                <a class=" bg-dark nav-link text-warning bg-gradient p-1 mx-5" href=".\Trending Movies.html">Trending Movies</a></li>
+                <a class=" bg-dark nav-link text-warning bg-gradient p-1 mx-5" href=".\contact us.html">contact us</a></li>
+                <a class=" bg-dark nav-link text-warning bg-gradient p-1 mx-5" href=".\About us.html">About Us</a></li>
+            </div>
+        </div>
+    </footer>
+    <script src=".\bootstrap-5.0.2-dist\js\bootstrap.min.js"></script>
 </body>
 </html>
