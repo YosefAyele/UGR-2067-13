@@ -5,73 +5,108 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Website to entertain yourself">
+    <link rel="stylesheet" href=".\bootstrap-5.0.2-dist\css\bootstrap.min.css">
+
 
     <title>AfterWork Entertainment: News Feed</title>
 </head>
 <body>
-  <!-- Logo -->
-  <div>
-    <img src=".\images\Logo.jpg" alt="Logo Goes Here">
-</div>
-    <!-- Navigation bar -->
-    <nav>
-        <a href=".\Home Page.html">
-            <button>Home</button>
-        </a>
-        <a href=".\News Feed Sport News.html">
-            <button>NewsFeed</button>
-        </a>
-        <a href=".\Trending Musics.html">
-            <button>Trending</button>
-        </a>
-        <a href=".\About us.html">
-            <button>About Us</button>
-        </a>
-        <a href=".\contact us.html">
-            <button>Contact Us</button>
-        </a>
+  
+     <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-md bg-body-tertiary bg-secondary  px-5 navbar-dark pt-2 mb-2" >
+        <!-- Logo -->
+    
+        <div class="container-fluid">
+            <img class="navbar-brand rounded bg-secondary" src=".\images\Logo-removebg-preview.png" alt="Logo Goes Here" width="80px">
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-warning  px-3"  href=".\Home Page.html"> Home </a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <button class="bg-warning rounded border-0">
+                            <a class="nav-link active px-3" href=".\News Feed Sport News.html"> NewsFeed </a>
+                        </button>
+                    </li>
+
+                    <li class="nav-item">
+
+                        <a class="nav-link text-warning    px-3" href=".\Trending Musics.html"> Trending </a>
+                    </li>
+
+                    <li class="nav-item">
+
+                        <a class="nav-link text-warning  px-3" href=".\About us.html"> About Us </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-warning  px-3" href=".\contact us.html"> Contact Us </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
+
 
     <!-- newsfeed navigation -->
-    <nav>
-        <a href=".\News Feed Sport News.html">
-            <button>Sport News</button>
+    <div class="container ml-0">
+        <a class="btn bg-dark text-light active mx-2" href=".\News Feed Sport News.html">
+            Sport News
         </a>
-        <a href=".\NewsFeed Celebrity News.html">
-            <button>Celebrity News</button>
+        <a class="btn bg-dark text-warning mx-2 " href=".\NewsFeed Celebrity News.html">
+            Celebrity News
         </a>
-    </nav>
+    </div>
     <!-- Main contents of the website -->
     <main>
-        <section>
-            <h1>Hot Sport News</h1>
+        <section class="container">
+            <h1 class="display-3 text-light rounded bg-dark my-4 text-center p-4">Hot Sport News</h1>
 
             <!-- news1 -->
-            <img src=".\images\lionel-messi-world-cup-kiss.jpg" alt="Lionel Messi Kissing world Cup" width="200px">
-            <h2>Lionel Messi beats an egg to become most liked post on Instagram</h2>
-            <p>Lionel Messi set yet another record after his Instagram post celebrating Argentina’s World Cup win became the most-liked on the platform, breaking a nearly four-year-old record held by a photo of an egg.
-                Having led Argentina to their first World Cup in 36 years with victory over France, Messi proceeded to make more history off the pitch with his photo gallery on Instagram, which racked up more than 65 million likes at the time of writing.
-                The previous record was famously held by a stock image of an egg on a white background with 55.7 million likes, posted by the account @world_record_egg in January 2019 in an intentional bid to become the most-liked Instagram post of all time.</p>
+            <div class="row my-4">
+
+                <img class="col-sm-4 rounded-pill" src=".\images\lionel-messi-world-cup-kiss.jpg" alt="Lionel Messi Kissing world Cup" width="200px">
+                <div class="container col-sm-8 my-2">
+                    <h2>Lionel Messi beats an egg to become most liked post on Instagram</h2>
+                    <p>Lionel Messi set yet another record after his Instagram post celebrating Argentina’s World Cup win became the most-liked on the platform, breaking a nearly four-year-old record held by a photo of an egg.
+                        Having led Argentina to their first World Cup in 36 years with victory over France, Messi proceeded to make more history off the pitch with his photo gallery on Instagram, which racked up more than 65 million likes at the time of writing.
+                        The previous record was famously held by a stock image of an egg on a white background with 55.7 million likes, posted by the account @world_record_egg in January 2019 in an intentional bid to become the most-liked Instagram post of all time.</p>
+                </div>
+            </div>
            
             <!-- news2 -->
-            <img src=".\images\mbapes lost on world cup.jpg" alt="Mbape on world cup closing ceremony" width="200px">
-            <h2>Kylian Mbappe breaks silence after France World Cup final loss to Lionel Messi and Argentina</h2>
-            <p>Kylian Mbappe has vowed that France will return after they were beaten on penalties in the World Cup final by Argentina.
+            <div class="row my-4">
 
-                The 23-year-old scooped the Golden Boot and became the first player since Sir Geoff Hurst in 1966 to score a hat-trick in a World Cup final. Although his efforts were in vain as Lionel Scaloni's side were crowned world champions for the first time since 1986.
-                
-                Mbappe went toe-to-toe with his PSG teammate Lionel Messi on Sunday in the Lusail Stadium, in Qatar, as he dragged the reigning champions back into the final with a 90-second second-half double.</p>
-            <video width="320px" height="240px" controls="controls">
-                <source src=".\Videos\worldCup Final Highlights (online-video-cutter.com).mp4" type="video/mp4">
-                <track src=".\SRC\Subtitles\worldCuphighlights.vtt">
-                
-                Your browser doesn't support Video.
-            </video>
-            <p>
-                This was a final that had superstar rivalries, penalties, iconic goals and goalkeeping masterclasses, culminating in Lionel Messi’s crowning as world champion after Argentina beat France on penalties.
+                <img class="col-sm-4 rounded-pill" src=".\images\mbapes lost on world cup.jpg" alt="Mbape on world cup closing ceremony" width="200px">
+                <div class="container col-sm-8 my-2">
+                    <h2>Kylian Mbappe breaks silence after France World Cup final loss to Lionel Messi and Argentina</h2>
+                    <p>Kylian Mbappe has vowed that France will return after they were beaten on penalties in the World Cup final by Argentina.
+                        
+                        The 23-year-old scooped the Golden Boot and became the first player since Sir Geoff Hurst in 1966 to score a hat-trick in a World Cup final. Although his efforts were in vain as Lionel Scaloni's side were crowned world champions for the first time since 1986.
+                        
+                        Mbappe went toe-to-toe with his PSG teammate Lionel Messi on Sunday in the Lusail Stadium, in Qatar, as he dragged the reigning champions back into the final with a 90-second second-half double.</p>
+                </div>
+            </div>
+            <div class="row">
 
-                The pièce de resistance, a moment that will live long in the memory like an impressionistic masterpiece, is that iconic image of Messi – lifted aloft on his teammates’ shoulders – with the World Cup trophy finally in his hands.
-            </p>
+                <video class="col-sm-4 " width="320px" height="240px" controls="controls">
+                    <source src=".\Videos\worldCup Final Highlights (online-video-cutter.com).mp4" type="video/mp4">
+                    <track src=".\SRC\Subtitles\worldCuphighlights.vtt">
+                    
+                    Your browser doesn't support Video.
+                </video>
+                <p class="col-sm-7 my-2">
+                    This was a final that had superstar rivalries, penalties, iconic goals and goalkeeping masterclasses, culminating in Lionel Messi’s crowning as world champion after Argentina beat France on penalties.
+                    
+                    The pièce de resistance, a moment that will live long in the memory like an impressionistic masterpiece, is that iconic image of Messi – lifted aloft on his teammates’ shoulders – with the World Cup trophy finally in his hands.
+                </p>
+            </div>
 
         </section>
 
@@ -79,18 +114,23 @@
     </main>
 
     <!-- Footer -->
-    <footer>
-        <h3>Go to:</h3>
-        <ul>
-        <li><a href=".\News Feed Sport News.html">NewsFeed Sport</a></li>
-        <li><a href=".\NewsFeed Celebrity News.html">NewsFeed Celebrity</a></li>
-        <li><a href=".\Trending Musics.html">Trending Music</a></li>
-        <li><a href=".\Trending Movies.html">Trending Movies</a></li>
-        <li><a href=".\About us.html">About Us</a></li>
-        <li><a href=".\contact us.html">contact us</a></li>
-        </ul>
-        <a href="">Back to home</a>
+    <footer class="bg-dark text-white pt-2 pb-2 mt-5">
+        <div class="container text-center text-md-left">
+
+            <h2 class="text-uppercase mb-3 font-weight-bold text-info">Go to:</h2>
+            <div class="list-group">
+                <a class=" bg-dark nav-link text-warning bg-gradient p-1 mx-5" href=".\News Feed Sport News.html">NewsFeed Sport</a></li>
+                <a class=" bg-dark nav-link text-warning bg-gradient p-1 mx-5" href=".\NewsFeed Celebrity News.html">NewsFeed Celebrity</a></li>
+                <a class=" bg-dark nav-link text-warning bg-gradient p-1 mx-5" href=".\Trending Musics.html">Trending Music</a></li>
+                <a class=" bg-dark nav-link text-warning bg-gradient p-1 mx-5" href=".\Trending Movies.html">Trending Movies</a></li>
+                <a class=" bg-dark nav-link text-warning bg-gradient p-1 mx-5" href=".\contact us.html">contact us</a></li>
+                <a class=" bg-dark nav-link text-warning bg-gradient p-1 mx-5" href=".\About us.html">About Us</a></li>
+            </div>
+            <a class="btn bg-light text-info my-3" href=".\Home Page.html">Back to home</a>
+        </div>
+        
     </footer>
+    <script src=".\bootstrap-5.0.2-dist\js\bootstrap.min.js"></script>
 </body>
 
 </html>
